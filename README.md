@@ -2,8 +2,6 @@
   <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="380px">
   <br>
   <p>Explore GitHub repositories</p>
-  <br>
-  <br>
   <h1>Build using:</h1>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
@@ -38,28 +36,28 @@
 <div id="install">
     <h2>Install</h2>
     <p>Development mode </p>
-    <p> # open your terminal/cmd and clone this repository
+    <p>  open your terminal/cmd and clone this repository </p>
+    <p> git clone https://github.com/wellymaya/github-explorer.git </p>
 
-git clone https://github.com/wellymaya/github-explorer.git
+< !--
+- access folder github-explorer
 
-# access folder github-explorer
+    cd github-explorer
 
-cd github-explorer
-
-# install dependencies using your favorite package manager
+- install dependencies using your favorite package manager
 
 yarn
-# or with NPM usign npm install
+ or with NPM usign npm install
 npm install
 
-# run app typing
+ run app typing
 
 yarn start
 #or with NPM
 npm run start
 
-# The app should open on "http://localhost:3000"
+ The app should open on "http://localhost:3000"
+ -->
 
-    </p>
 
 </div>
