@@ -1,3 +1,10 @@
+<div>
+  <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="400px">
+</div>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
