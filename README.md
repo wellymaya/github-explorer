@@ -1,12 +1,14 @@
 <div align="center">
+    <br>
   <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="380px">
   <br>
   <p>Explore GitHub repositories</p>
   <h1>Build using:</h1>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src=" 	https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+
+  <a href="https://pt-br.reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"></a>
+  <a href="https://styled-components.com/"><img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"></a>
+  <a href="https://reactrouter.com/"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"></a>
 
 </div>
 
@@ -15,8 +17,8 @@
 <img src="">
 
 <div id="About">
-    <h1>About</h1>
-    <p>SPA (Single Page Application) build with ReactJs and TypeScript to explore Github repositories. </p>
+    <h1>🤔 About</h1>
+    <p>➩ SPA (Single Page Application) build with ReactJs and TypeScript to explore Github repositories. </p>
     <p>This application consume the github  official API to get and display the data. </p>
     <p>Developed during bootcamp GoStack to put in practice the studies of React, React Hooks, React Router Dom and Styled Components. </p>
 </div>
