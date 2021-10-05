@@ -3,6 +3,7 @@
   <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="380px">
   <br>
   <p>Explore GitHub repositories</p>
+  <br>
   <h1>Build using:</h1>
 
   <a href="https://pt-br.reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
@@ -41,7 +42,7 @@
     <p>  open your terminal/cmd and clone this repository </p>
     <p> git clone https://github.com/wellymaya/github-explorer.git </p>
 
-< !--
+<!--
 - access folder github-explorer
 
     cd github-explorer
