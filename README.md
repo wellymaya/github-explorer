@@ -1,3 +1,5 @@
+<!--
+
 <div align="center">
     <br>
   <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="380px">
@@ -60,7 +62,7 @@ yarn start
 npm run start
 
  The app should open on "http://localhost:3000"
- -->
-
-
 </div>
+-->
+
+<h2> Work in progress </h2>

@@ -8,11 +8,11 @@ interface FormProps {
 
 export const Title = styled.h1`
     font-size: 48px;
-    color: #3a3a3a;
     max-width: 450px;
     line-height: 56px;
-
     margin-top: 80px;
+    text-shadow: 1px 1px ${props => props.theme.colors.background};
+
 
 
 
@@ -30,24 +30,25 @@ export const Form = styled.form <FormProps>`
         padding: 0 24px;
         border: 0;
         border-radius: 5px 0 0 5px;
-        color: #3a3a3a;
-        border:  2px solid #fff;
+        background-color: ${props =>props.theme.colors.primary};
+        color:${props =>props.theme.colors.text} ;
+        border:  2px solid transparent;
         border-right: 0;
 
         ${(props) => props.hasError && css `
-            border-color: #c53030;
+            border-color: red;
 
         `}
 
         &::placeholder {
-            color:#a8a8b3 ;
+            color: ${props => props.theme.colors.text} ;
         }
     }
 
     button{
         width: 210px;
         height: 70px;
-        background-color: #84d361;
+        background-color: #0e9e51;
         border-radius: 0px 5px 5px 0px;
         border: 0;
         color:#fff ;
@@ -74,7 +75,7 @@ export const Repositories = styled.div `
     max-width: 700px;
 
     a{
-        background-color: #fff;
+        background-color: ${props => props.theme.colors.primary};
         border-radius: 5px;
         width: 100%;
         padding: 24px;
@@ -104,7 +105,7 @@ export const Repositories = styled.div `
 
             strong{
                 font-size: 20px;
-                color: #3d3d4d;
+                color: ${props => props.theme.colors.text};
             }
 
             p{
@@ -118,9 +119,12 @@ export const Repositories = styled.div `
             margin-left: auto;
             color: #cbcbd6;
         }
-
-
     }
 
+`;
+
+export const Switch = styled.div `
+
+   width:50px;
 
 `;

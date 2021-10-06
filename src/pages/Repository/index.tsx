@@ -1,9 +1,10 @@
 import React, {useEffect} from "react";
 import { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { Link, useRouteMatch} from 'react-router-dom';
-import logoImg from '../../assets/logo.svg';
-import api, {} from '../../services/api'
+import { useRouteMatch} from 'react-router-dom';
+import api from '../../services/api'
+import { Link} from 'react-router-dom';
+
 
 
 interface RepositoryParams {
@@ -32,7 +33,7 @@ interface Issue {
     }
 }
 
-import {Header, RepositoryInfo, Issues} from './styles'
+import { RepositoryInfo, Issues} from './styles'
 
 const Repository: React.FC = () => {
     const [repository, setRepository] = useState <RepositoryI | null>(null);
@@ -52,16 +53,14 @@ const Repository: React.FC = () => {
 
     }, [params.repository]);
 
-    return (
-        <>
-        <Header>
-            <img src={logoImg}/>
-            <Link to="/">
-                <FiChevronLeft size={16}/>
-                Voltar
-            </Link>
-        </Header>
 
+    return (
+
+        <>
+        <Link to="/">
+        <FiChevronLeft size={16}/>
+        Voltar
+        </Link>
         { repository &&(
             <RepositoryInfo>
                 <header>

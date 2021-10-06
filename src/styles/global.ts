@@ -1,5 +1,5 @@
 import { createGlobalStyle} from 'styled-components';
-
+import image from '../assets/github.svg'
 
 export default createGlobalStyle `
 *{
@@ -10,9 +10,18 @@ export default createGlobalStyle `
 }
 
 body{
-    background-color: #f0f0f0;
     -webkit-font-smothing: antialiased;
+    background-image: url(${image});
+    background-size: 850px;
+    background-position:top right;
+    background-repeat: no-repeat;
+
+    background-color: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.text};
+
     }
+
+
 
 body, input, button{
     font: 16px 'Roboto', sans-serif;
