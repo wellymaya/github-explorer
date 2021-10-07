@@ -22,8 +22,10 @@ export const ButtonS = styled.div`
     text-decoration: none;
     margin-right: 15px;
     color: ${props => props.theme.colors.text};
-    background-color: blue;
     float: right;
     position: absolute;
+    left: 90%;
+    top: 48px;
+
     }
 `;

@@ -34,6 +34,7 @@ interface Issue {
 }
 
 import { RepositoryInfo, Issues} from './styles'
+import { ButtonS } from "../../components/Header/styles";
 
 const Repository: React.FC = () => {
     const [repository, setRepository] = useState <RepositoryI | null>(null);
@@ -57,10 +58,12 @@ const Repository: React.FC = () => {
     return (
 
         <>
-        <Link to="/">
-        <FiChevronLeft size={16}/>
-        Voltar
-        </Link>
+        <ButtonS>
+            <Link to="/">
+            <FiChevronLeft size={16}/>
+            Voltar
+            </Link>
+        </ButtonS>
         { repository &&(
             <RepositoryInfo>
                 <header>
