@@ -64,6 +64,24 @@ const Dashboard: React.FC = () => {
         //consume the API from github
         //save new repository in state
 
+
+    }
+
+    const slide = {
+        show: {
+            x: 0,
+            opacity: 1
+        },
+        hide: {
+            x: -50,
+            opacity: 0
+
+        },
+        initial: {
+            x: 100,
+            opacity: 0
+
+        }
     }
 
 
@@ -73,7 +91,10 @@ const Dashboard: React.FC = () => {
 
         <Title>Explore github Repositories</Title>
 
-        <Form hasError={!! inputError} onSubmit = {handleAddRepository}>
+        <Form
+        variants={slide} initial='initial' animate='show'
+        hasError={!! inputError} onSubmit = {handleAddRepository}>
+
             <input
             value= {newRepo}
             onChange  ={(e) => setNewRepo(e.target.value)}

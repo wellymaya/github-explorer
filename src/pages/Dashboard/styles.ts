@@ -1,5 +1,7 @@
 import styled, {css} from 'styled-components';
 import {shade} from 'polished';
+import {motion} from 'framer-motion'
+
 
 
 interface FormProps {
@@ -18,7 +20,7 @@ export const Title = styled.h1`
 
 `;
 
-export const Form = styled.form <FormProps>`
+export const Form = styled(motion.form)<FormProps>`
     margin-top: 40px;
     max-width: 700px;
 

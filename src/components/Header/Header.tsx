@@ -1,6 +1,6 @@
 import {shade} from 'polished';
 import logoImg from '../../assets/logo.svg';
-import { useContext, Component } from 'react';
+import { useContext } from 'react';
 import {StyleHeader} from './styles'
 
 import Switch from 'react-switch'
