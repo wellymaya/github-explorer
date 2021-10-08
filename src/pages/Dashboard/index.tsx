@@ -18,8 +18,6 @@ interface Repository {
 
 const Dashboard: React.FC = () => {
 
-
-
     const [newRepo, setNewRepo] = useState('');
     const [inputError, setInputError] = useState('');
     const [repositories, setRepositories] = useState<Repository[]>(() => {
@@ -91,14 +89,17 @@ const Dashboard: React.FC = () => {
 
         <Title>Explore github Repositories</Title>
 
+
         <Form
         variants={slide} initial='initial' animate='show'
         hasError={!! inputError} onSubmit = {handleAddRepository}>
+            <span>Type the author/repository name:</span>
+
 
             <input
             value= {newRepo}
             onChange  ={(e) => setNewRepo(e.target.value)}
-            placeholder="Type the repository name here: "
+            placeholder="Ex: facebook/react "
             />
             <button type="submit">Find</button>
         </Form>

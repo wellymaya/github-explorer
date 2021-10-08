@@ -3,7 +3,6 @@ import {shade} from 'polished';
 import {motion} from 'framer-motion'
 
 
-
 interface FormProps {
     hasError: Boolean;
 }
@@ -15,9 +14,6 @@ export const Title = styled.h1`
     margin-top: 80px;
     text-shadow: 1px 1px ${props => props.theme.colors.background};
 
-
-
-
 `;
 
 export const Form = styled(motion.form)<FormProps>`
@@ -25,6 +21,13 @@ export const Form = styled(motion.form)<FormProps>`
     max-width: 700px;
 
     display: flex;
+    flex-wrap: wrap;
+
+    span{
+        width: 100%;
+        margin: 10px 7px;
+        color: ${props => props.theme.colors.text};
+    }
 
     input{
         flex: 1;
@@ -32,9 +35,9 @@ export const Form = styled(motion.form)<FormProps>`
         padding: 0 24px;
         border: 0;
         border-radius: 5px 0 0 5px;
-        background-color: ${props =>props.theme.colors.primary};
+        background-color: ${props =>props.theme.colors.background};
         color:${props =>props.theme.colors.text} ;
-        border:  2px solid transparent;
+        border:  2px solid ${props => props.theme.colors.primary};
         border-right: 0;
 
         ${(props) => props.hasError && css `
@@ -80,7 +83,7 @@ export const Repositories = styled.div `
         background-color: ${props => props.theme.colors.primary};
         border-radius: 5px;
         width: 100%;
-        padding: 24px;
+        padding: 24px ;
         display: block;
         text-decoration: none;
 
