@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-       body{
-           background-color: rgb(30, 39, 58);
-           color: rgb(202, 202, 202);
-       }
-    </style>
 
-</head>
-<body>
 
 <div align="center">
     <br>
@@ -72,7 +57,6 @@
         <p>➩ yarn install</p> Or <p>➩ npm install</p> <br>
         <li>To start the application:</li>
         <p>➩ yarn start</p> Or <p>➩ npm start</p>
-
     </ol>
 </div>
 <br> <br>
@@ -80,7 +64,6 @@
 <div id="usage">
     <h1>💻 Usage</h1>
     <br>
-
     <ol>
         <li>Type inside the input: owner/repository that you want to search.
             <br> Example: vuejs/vue</li>
@@ -88,11 +71,5 @@
         <li>
             Now just click on the repository that you added to see the starks, forks and issues
         </li>
-    </ol>
-
 <br> <br>
-
 </div>
-
-</body>
-</html>
