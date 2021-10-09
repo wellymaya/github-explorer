@@ -1,4 +1,19 @@
-<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+           background-color: rgb(30, 39, 58);
+           color: rgb(202, 202, 202);
+       }
+    </style>
+
+</head>
+<body>
 
 <div align="center">
     <br>
@@ -14,6 +29,7 @@
   <a href="https://reactrouter.com/"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"></a>
 
 </div>
+<br>
 
 <hr>
 
@@ -21,15 +37,22 @@
 
 <div id="About">
     <h1>🤔 About</h1>
-    <p>➩ SPA (Single Page Application) build with ReactJs and TypeScript to explore Github repositories. </p>
-    <p>This application consume the github  official API to get and display the data. </p>
-    <p>Developed during bootcamp GoStack to put in practice the studies of React, React Hooks, React Router Dom and Styled Components. </p>
+    <p>➩ Single Page Application (SPA) build with ReactJs and TypeScript to explore Github repositories. </p>
+    <p>➩This application consume the github  official API to get and display the data. </p>
+    <p>➩Developed during bootcamp GoStack to put in practice the studies of React, React Hooks, React Router Dom and Styled Components. </p>
+</div>
+<br>
+<hr>
+<br> <br>
+<div align="center" id="Try">
+    <a href="https://"><img src="https://img.shields.io/badge/Try_Online-6629c2?style=for-the-badge" alt="Try Online"></a>
 </div>
 
+<br>
 <hr>
-
 <div id="started">
-    <h1>Getting started </h1>
+    <h1>✨ Getting started </h1>
+    <br>
     <h2> Requisites: </h2>
     <ul>
         <li><a href="https://nodejs.org/en/">NodeJs</a> </li>
@@ -37,32 +60,39 @@
         <li><a href="https://git-scm.com/">Git </a></li>
     </ul>
 </div>
+<br>
 
 <div id="install">
-    <h2>Install</h2>
-    <p>Development mode </p>
-    <p>  open your terminal/cmd and clone this repository </p>
-    <p> git clone https://github.com/wellymaya/github-explorer.git </p>
+    <h2>How to Install on the Developing mode:</h2><br>
+    <ol>
+        <li> Open your terminal/cmd and clone this repository </li>
+        <p> ➩ git clone https://github.com/wellymaya/github-explorer.git </p>
+        <br>
+        <li>To install the dependencies:</li>
+        <p>➩ yarn install</p> Or <p>➩ npm install</p> <br>
+        <li>To start the application:</li>
+        <p>➩ yarn start</p> Or <p>➩ npm start</p>
 
-<!--
-- access folder github-explorer
-
-    cd github-explorer
-
-- install dependencies using your favorite package manager
-
-yarn
- or with NPM usign npm install
-npm install
-
- run app typing
-
-yarn start
-#or with NPM
-npm run start
-
- The app should open on "http://localhost:3000"
+    </ol>
 </div>
--->
+<br> <br>
+<hr>
+<div id="usage">
+    <h1>💻 Usage</h1>
+    <br>
 
-<h2> Work in progress </h2>
+    <ol>
+        <li>Type inside the input: owner/repository that you want to search.
+            <br> Example: vuejs/vue</li>
+            <br>
+        <li>
+            Now just click on the repository that you added to see the starks, forks and issues
+        </li>
+    </ol>
+
+<br> <br>
+
+</div>
+
+</body>
+</html>
