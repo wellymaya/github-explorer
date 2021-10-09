@@ -62,7 +62,7 @@ export const Issues = styled.div`
     max-width: 700px;
 
     a{
-        background-color: ${props => props.theme.colors.primary};
+        background-color: ${props => props.theme.colors.secondary};
         border-radius: 5px;
         width: 100%;
         padding: 24px;
@@ -75,6 +75,8 @@ export const Issues = styled.div`
 
         &:hover{
             transform: translateX(10px);
+            box-shadow: 1px 1px ${props => props.theme.colors.primary};
+
         }
         & + a {
             margin-top: 16px;

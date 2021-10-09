@@ -12,7 +12,7 @@ export default createGlobalStyle `
 body{
     -webkit-font-smothing: antialiased;
     background-image: url(${image});
-    background-size: 700px;
+    background-size: 650px;
     background-position:top right;
     background-repeat: no-repeat;
 

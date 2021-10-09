@@ -68,11 +68,12 @@ const Dashboard: React.FC = () => {
     const slide = {
         show: {
             x: 0,
-            opacity: 1
-        },
+            opacity: 1,
+            scale: 1       },
         hide: {
             x: -50,
-            opacity: 0
+            opacity: 0,
+            scale: 0
 
         },
         initial: {
@@ -87,11 +88,13 @@ const Dashboard: React.FC = () => {
 
     <>
 
-        <Title>Explore github Repositories</Title>
+        <Title
+>Explore github Repositories</Title>
 
 
         <Form
         variants={slide} initial='initial' animate='show'
+
         hasError={!! inputError} onSubmit = {handleAddRepository}>
             <span>Type the author/repository name:</span>
 
@@ -101,7 +104,7 @@ const Dashboard: React.FC = () => {
             onChange  ={(e) => setNewRepo(e.target.value)}
             placeholder="Ex: facebook/react "
             />
-            <button type="submit">Find</button>
+            <button type="submit">Search</button>
         </Form>
 
         { inputError && <Error> {inputError} </Error> }
