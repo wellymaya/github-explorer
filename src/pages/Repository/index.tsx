@@ -1,6 +1,9 @@
 import React, {useEffect} from "react";
 import { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import {BiGitRepoForked, BiStar} from 'react-icons/bi'
+import {GoIssueOpened} from 'react-icons/go'
+
 import { useRouteMatch} from 'react-router-dom';
 import api from '../../services/api'
 import { Link} from 'react-router-dom';
@@ -34,7 +37,7 @@ interface Issue {
 }
 
 import { RepositoryInfo, Issues} from './styles'
-import { ButtonS } from "../../components/Header/styles";
+import { ButtonExit } from "../../components/Header/styles";
 
 const Repository: React.FC = () => {
     const [repository, setRepository] = useState <RepositoryI | null>(null);
@@ -58,12 +61,13 @@ const Repository: React.FC = () => {
     return (
 
         <>
-        <ButtonS>
+        <ButtonExit>
             <Link to="/">
             <FiChevronLeft size={16}/>
             Voltar
             </Link>
-        </ButtonS>
+        </ButtonExit>
+
         { repository &&(
             <RepositoryInfo>
                 <header>
@@ -79,15 +83,19 @@ const Repository: React.FC = () => {
                 </header>
                 <ul>
                     <li>
-                        <strong>{repository.stargazers_count}</strong>
+                        <strong>
+                            <BiStar size={29}/>
+                            {repository.stargazers_count}
+                        </strong>
                         <span>Stars</span>
                     </li>
                     <li>
-                        <strong>{repository.forks_count}</strong>
+                        <strong> <BiGitRepoForked size={29}/>
+                        {repository.forks_count}</strong>
                         <span>Forks</span>
                     </li>
                     <li>
-                        <strong>{repository.open_issues_count}</strong>
+                        <strong><GoIssueOpened size={29} /> {repository.open_issues_count}</strong>
                         <span>Issues Abertas</span>
 
                     </li>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const RepositoryInfo = styled.section `
-    margin-top: 80px;
+    margin-top: 100px;
 
 
     header{
@@ -17,6 +17,7 @@ export const RepositoryInfo = styled.section `
 
     div{
         margin-left: 24px;
+        margin-top: 30px;
 
         strong{
             font-size:  36px;
@@ -26,8 +27,11 @@ export const RepositoryInfo = styled.section `
 
         p{
             font-size: 18px;
-            color:${props => props.theme.colors.text};
-            margin-top: 4px;
+            width: 80%;
+            letter-spacing: 0.2px;
+            line-height: 140%;
+            color:${props => props.theme.colors.primary};
+            margin-top: 10px;
         }
     }
 
@@ -35,6 +39,7 @@ export const RepositoryInfo = styled.section `
         display: flex;
         list-style: none;
         margin-top: 40px;
+        margin-left: 25px;
 
         li{
             & + li {
@@ -46,15 +51,66 @@ export const RepositoryInfo = styled.section `
                 font-size: 36px;
 
                 color: ${props => props.theme.colors.text};
+
+                svg{
+                    margin-right: 10px;
+                }
             }
 
             span{
                 display: block;
                 margin-top: 4px;
-                color: #6c6c80;
+                color: ${props => props.theme.colors.primary};
             }
         }
     }
+@media(max-width: 800px) {
+    header {
+        width: 100vh;
+
+        p{
+            font-size: large;
+            width: 70vw;
+        }
+
+
+        img{
+            width: 10%;
+            height: 10%;
+        }
+
+        div{
+            margin-left: 5px;
+            strong{
+                font-size: 32px;
+            }
+        }
+    }
+    ul{
+        width:100vw;
+        justify-content: center;
+        margin: 30px 0;
+
+        li {
+            & + li{
+            margin-left: 40px;
+        }
+
+            strong{
+            font-size: large;
+            display: flex;
+            flex-direction: column;
+
+            svg{
+                margin: 5px;
+                width: 20px;
+            }
+        }
+
+        }
+
+    }
+}
 `;
 
 export const Issues = styled.div`
@@ -62,7 +118,7 @@ export const Issues = styled.div`
     max-width: 700px;
 
     a{
-        background-color: ${props => props.theme.colors.secondary};
+        background-color: ${props => props.theme.colors.strong};
         border-radius: 5px;
         width: 100%;
         padding: 24px;
@@ -75,7 +131,7 @@ export const Issues = styled.div`
 
         &:hover{
             transform: translateX(10px);
-            box-shadow: 1px 1px ${props => props.theme.colors.primary};
+            box-shadow: 1px 1px ${props => props.theme.colors.secondary};
 
         }
         & + a {
@@ -89,7 +145,7 @@ export const Issues = styled.div`
 
             strong{
                 font-size: 20px;
-                color: #a8a8b3;
+                color: ${props => props.theme.colors.text};
             }
 
             p{

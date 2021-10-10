@@ -17,15 +17,13 @@ export const StyleHeader = styled.header `
 
     `;
 
-export const ButtonS = styled.div`
+export const ButtonExit = styled.div`
     a{
     text-decoration: none;
     margin-right: 15px;
-    color: ${props => props.theme.colors.text};
-    float: right;
-    position: absolute;
-    left: 90%;
-    top: 48px;
+    color: ${props => props.theme.colors.primary};
+    float: inline-start;
+    margin-top: 40px;
 
     }
 `;

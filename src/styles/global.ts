@@ -1,3 +1,4 @@
+import { Header } from './../components/Header/Header';
 import { createGlobalStyle} from 'styled-components';
 import image from '../assets/github.svg'
 
@@ -12,8 +13,8 @@ export default createGlobalStyle `
 body{
     -webkit-font-smothing: antialiased;
     background-image: url(${image});
-    background-size: 650px;
-    background-position:top right;
+    background-size: 670px;
+    background-position: bottom 100% left 45vw;
     background-repeat: no-repeat;
 
     background-color: ${props => props.theme.colors.background};

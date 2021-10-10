@@ -37,7 +37,7 @@ export const Form = styled(motion.form)<FormProps>`
         border-radius: 5px 0 0 5px;
         background-color: ${props =>props.theme.colors.background};
         color:${props =>props.theme.colors.text} ;
-        border:  2px solid ${props => props.theme.colors.primary};
+        border: 1px solid ${props => props.theme.colors.secondary};
         border-right: 0;
 
         ${(props) => props.hasError && css `
@@ -65,6 +65,20 @@ export const Form = styled(motion.form)<FormProps>`
         }
     }
 
+    @media (max-width: 900px) {
+            form{
+                flex-wrap: wrap;
+
+            }
+            input{
+                width: 60vw;
+            }
+
+            button{
+                width: 20vw;
+            }
+    }
+
 `;
 
 export const Error = styled.span `
@@ -80,7 +94,7 @@ export const Repositories = styled.div `
     max-width: 700px;
 
     a{
-        background-color: ${props => props.theme.colors.secondary};
+        background-color: ${props => props.theme.colors.strong};
         border-radius: 5px;
         width: 100%;
         padding: 24px ;
@@ -93,7 +107,7 @@ export const Repositories = styled.div `
 
         &:hover{
             transform: translateX(10px);
-            box-shadow: 1px 1px ${props => props.theme.colors.primary};
+            box-shadow: 1px 1px ${props => props.theme.colors.secondary};
 
         }
         & + a {

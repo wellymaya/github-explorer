@@ -43,6 +43,7 @@ const Dashboard: React.FC = () => {
 
             if (!newRepo) {
                 setInputError('Type the author/name of repository');
+                return;
             }
 
             try {
