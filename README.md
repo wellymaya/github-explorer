@@ -2,6 +2,8 @@
         <br>
       <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="380px">
       <br>
+        <br>
+      <div><a href="#About"> About  |</a><a href="#started">  Get Start  |</a><a href="#images">  Images |</a> <a href="#tech">  Technologies </a> </div>
       <br>
       <img src="https://github.com/wellymaya/github-explorer/blob/master/animate.gif">
       <br>
@@ -12,6 +14,8 @@
       <a href="https://reactrouter.com/"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"></a>
     </div>
     <br>
+    <br>
+    <br>
     <hr>
     <div id="About">
         <h1>🤔 About</h1>
@@ -21,11 +25,10 @@
     </div>
     <br>
     <hr>
-    <br> <br>
+    <br> 
     <div align="center" id="Try">
         <a href="https://"><img src="https://img.shields.io/badge/Try_Online-6629c2?style=for-the-badge" alt="Try Online"></a>
     </div>
-    <br>
     <hr>
     <div id="started">
         <h1>✨ Getting started </h1>
@@ -65,7 +68,14 @@
     <br> <br>
     </div>
     <hr>
-    <div id="tech">
+    <div id="images">
+            <h1>📸 Images </h1>
+            <h2>Light Theme: </h2>
+             <img src="https://github.com/wellymaya/github-explorer/blob/master/lighttheme.png" width="850px">
+             <h2>Dark Theme: </h2>
+             <img src="https://github.com/wellymaya/github-explorer/blob/master/blacktheme.png" width="850px">
+    </div>
+         <div id="tech">
         <h1>🔧 Technologies:</h1>
         <br>
         <p>✅ React</p>
@@ -77,8 +87,5 @@
         <p>✅ React Icons</p>
         <p>✅ Eslint</p>
         <p>✅ Prettier</p>
-    </div>
-    <img src="">
-    <div id="images">
     </div>
     
