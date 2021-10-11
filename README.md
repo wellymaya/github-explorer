@@ -88,4 +88,5 @@
         <p>✅ Eslint</p>
         <p>✅ Prettier</p>
     </div>
-    
+        <br> <br>
+<p align="center"> developed with love <3 by @wellymayara</>
