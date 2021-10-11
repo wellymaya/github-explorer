@@ -64,7 +64,7 @@ const Repository: React.FC = () => {
         <ButtonExit>
             <Link to="/">
             <FiChevronLeft size={16}/>
-            Voltar
+            Back
             </Link>
         </ButtonExit>
 
