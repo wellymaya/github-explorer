@@ -4,8 +4,8 @@
     <br>
   <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="380px">
   <br>
-
-  <img src="./animate">
+  <br>
+  <img src="https://github.com/wellymaya/github-explorer/blob/master/animate.gif">
   <br>
   <h1>Build using:</h1>
 
@@ -19,7 +19,6 @@
 
 <hr>
 
-<img src="">
 
 <div id="About">
     <h1>🤔 About</h1>
@@ -70,7 +69,7 @@
             <br> Example: vuejs/vue</li>
             <br>
         <li>
-            Now just click on the repository that you added to see the starks, forks and issues
+            Click on the repository that you added to see the starks, forks and issues
         </li>
 <br> <br>
 </div>
