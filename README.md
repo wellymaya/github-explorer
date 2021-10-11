@@ -4,7 +4,8 @@
     <br>
   <img src= "https://github.com/wellymaya/github-explorer/blob/master/src/assets/logo.svg" width="380px">
   <br>
-  <p>Explore GitHub repositories</p>
+
+  <img src="./animate">
   <br>
   <h1>Build using:</h1>
 

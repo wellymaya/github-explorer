@@ -5,9 +5,9 @@ export default {
         primary: '#8d8e91',
         secondary: 'lightgray',
 
-        background: "#ebe8e8",
+        background: "#e6e6e6",
         text: "#495057",
-        strong: '#fff'
+        strong: '#e6e6e6'
 
     }
 }

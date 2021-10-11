@@ -64,19 +64,21 @@ export const RepositoryInfo = styled.section `
             }
         }
     }
-@media(max-width: 800px) {
+@media(max-width: 900px) {
     header {
-        width: 100vh;
+        width: 70vw;
+        margin: auto;
+        justify-content: center;
 
         p{
             font-size: large;
-            width: 70vw;
+            width: 100%;
         }
 
 
         img{
-            width: 10%;
-            height: 10%;
+            width: 70px;
+            height: auto;
         }
 
         div{
