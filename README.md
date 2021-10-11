@@ -73,7 +73,7 @@
             <h2>Light Theme: </h2>
              <img src="https://github.com/wellymaya/github-explorer/blob/master/lighttheme.png" width="850px">
              <h2>Dark Theme: </h2>
-             <img src="https://github.com/wellymaya/github-explorer/blob/master/blacktheme.png" width="850px">
+             <img src="https://github.com/wellymaya/github-explorer/blob/master/darktheme.png" width="850px">
     </div>
          <div id="tech">
         <h1>🔧 Technologies:</h1>
